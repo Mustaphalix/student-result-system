@@ -1,0 +1,65 @@
+body {
+    background-color: #f5ece1;  /* Soft off-white background with warm tone */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #5c4033;  /* Dark chocolate header */
+    color: white;
+}
+
+.container {
+    max-width: 900px;  /* Wider for tables */
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background: white;
+}
+
+.card-title {
+    color: #8a5a44;  /* Medium brown for headings */
+}
+
+.form-control {
+    border-radius: 5px;
+    border-color: #d4a373;  /* Light brown border */
+}
+
+.btn-primary {
+    background-color: #8a5a44;  /* Medium brown button */
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #6d4835;  /* Darker chocolate hover */
+}
+
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #5c4033;  /* Dark chocolate table header */
+    color: white;
+}
+
+.alert {
+    border-radius: 5px;
+    animation: fadeIn 0.5s;  /* Subtle fade-in */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+footer {
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #d4a373;  /* Light brown footer */
+    color: white;
+}
